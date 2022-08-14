@@ -2,10 +2,7 @@
 import tweepy
 
 # assign the values accordingly
-consumer_key = "V1MToZmmKfCn2Rolg6aWEEgFk"
-consumer_secret = "pKMeCxYLmdoHIn963OVCDVuRRwxrI9ZKkyHRygnS235BNaSQ0i"
-access_token = "AAAAAAAAAAAAAAAAAAAAAAnYfwEAAAAAuuOB7"
-access_token_secret = "HSVNVs4mPDO34gHSLu1L8%3DtobyQ5JqoA8DRlZQ2sJE8THNFVAhWj9zcTuYwASupr8rOCQUW4"
+
 
 # authorization of consumer key and consumer secret
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
