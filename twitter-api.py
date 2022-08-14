@@ -10,5 +10,6 @@ users = client.get_users_followers(id=config.USER_ID)
 
 for user in users.data:
     print(user.keys)
-
+    #print(user.username)  #for instance
+ 
 print("Number of followers displayed: ",len(users.data))
